@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # process_replies.py
 
 import imaplib
@@ -11,7 +13,7 @@ from db_connection import get_db_connection
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(/home/llama/llama_tasks/.env)
 
 def process_emails():
     imap_server = os.getenv('IMAP_SERVER')
