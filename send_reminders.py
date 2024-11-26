@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # send_reminders.py
 
 import smtplib
@@ -9,7 +11,7 @@ import datetime
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(/home/llama/llama_tasks/.env)
 
 def get_due_tasks():
     connection = get_db_connection()
