@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # generate_reports
 
 import os
