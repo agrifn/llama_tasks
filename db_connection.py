@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables from the .env file
-load_dotenv()
+load_dotenv(/home/llama/llama_tasks/.env)
 
 def get_db_connection():
     try:
